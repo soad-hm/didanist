@@ -7,12 +7,12 @@
     display: flex;
     border-radius: 10px 10px 10px 10px;
     margin-top: 100px;
-    margin-right:172px;
+    margin-left:990px;
 }
 
 .main{
     background-color:#8012C3;
-    width: 1460px;
+    width:auto;
     height: 470px;
     box-shadow: none;
     justify-content: space-between;
@@ -29,7 +29,7 @@
 }
 .image{
     display:flex ;
-    margin-right: 197.27px;
+    margin-left: 1027px;
     padding-top:108px;
     width:235.73px;
     height: 46px;
@@ -44,7 +44,7 @@
     display: flex;
     border-radius: 10px 10px 10px 10px;
     margin-top: 30px;
-    margin-right: 98px;
+    margin-left: 888px;
 
 }
 .message p{
@@ -64,7 +64,7 @@
 
 }
 .image2{
-    padding-right: 750px;
+    padding-left: 149px;
     position: absolute;  
    padding-top:106px;
    width:570.33px;
@@ -92,12 +92,7 @@
     height: 83px;
     background-color:#FDF7FF;
     font-size: 16px;
-    justify-content: center;
-    align-items: center;
-    display:flex;
     line-height: 22.55px;
-    margin-right: auto;
-    margin-left: auto;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
 }
@@ -113,7 +108,7 @@
     margin-bottom:200px ;
 }
 .section1{
-    width:1460px;
+    width:auto;
 }
 .section3 p{
     font-size: 30px;
@@ -134,6 +129,7 @@
     align-items: center;
     display: flex;
     width: 50%;
+    
 } 
 
 
@@ -175,7 +171,7 @@
 }
 .last{
     height:400px;
-    width: 1460px;
+    width: auto;
     background-color:#312d33;
     margin-top: 40px;
 
