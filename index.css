@@ -83,10 +83,26 @@
     width:410px;
     height: 83px;
     background-color:#FDF7FF;
-    font-size: 16px;
     line-height: 22.55px;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.kadre span{
+    font-family: 'IRANYekan', sans-serif;
+     font-size: 15px;
+     display: flex;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     align-items: center;
+}
+.section1{
+    width:auto;
 }
 .section-1{
    
@@ -99,34 +115,22 @@
     margin-bottom:200px ;
    
 }
-.section1{
-    width:auto;
+.section2{
+    background-color:#FDF7FF;
+    height:371px;
+    width: auto;
+    margin-bottom:150px;
 }
-.section3 p{
-    font-size: 30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    font-weight: bold;
-}
-.section3 .digi {
-  
-   justify-content: center;
-    /* margin-left:700px ; */
-   margin-right: auto;
-   margin-left: auto;
-    padding-right:auto;
-    padding-left:auto;
-    align-items: center;
-    display: flex;
-    width: 50%;
-    
-} 
-
-
-.section3 image{
-    position: absolute;
+.hard p {
+    color:#6c1c9c;
+    font-family: 'IRANYekan', sans-serif;
+     justify-content: center;
+     font-size: 25px ;
+     margin-left: auto;
+     margin-right:auto;
+      display: flex; 
+      padding-top:1% ;
+      font-weight: 700;
 }
 .section2 .all{
     justify-content: center;
@@ -142,6 +146,151 @@
 .section2 image{
     position: absolute;
 }
+.all .first{
+    width:300px;
+    height:auto; 
+    background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     border:solid #E0DCDC 1px; 
+}
+.firstp{
+    color: #c45d5d;
+    display: flex;
+    justify-content: center;
+}
+.firstpi{
+    width: 300px; 
+    height:90px;
+}
+.firstpi p{
+    color: black;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 10px;
+}
+.second{
+    width:300px; 
+    height:auto; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border:solid #E0DCDC 1px;
+    margin-right:1.5%;
+}
+.secondp{
+    color: #c45d5d;
+    display: flex;
+    justify-content: center;
+    color:  #c45d5d; 
+    justify-content: center;
+}
+.secondpi{
+    width: 300px;
+    height:90px;
+}
+.secondpi p{
+    color: black;  
+    justify-content: center; 
+    align-items: center;
+    display: flex; 
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 10px;
+}
+.third{
+    width:300px; 
+    height:auto; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    border:solid #E0DCDC 1px;
+    margin-right:1.5%;
+}
+.third p{
+    color: #c45d5d;
+    display: flex;
+    justify-content: center;
+    color:  #c45d5d; 
+    justify-content: center;
+} 
+.thirdp{
+    width: 300px; 
+    height:90px;
+}
+.thirdp p{
+    color: black;  
+    justify-content: center; 
+    align-items: center;
+    display: flex; 
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 10px;
+}
+
+.forth{
+    width:300px;
+    height:auto; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    border:solid #E0DCDC 1px;
+    margin-right:1.5%;
+}
+.forth p{
+    color: #c45d5d;
+    display: flex;
+    justify-content: center;
+    color:  #c45d5d; 
+}
+.forthp{
+    width: 300px;
+    height:90px;
+}
+.forthp p{
+    color: black;  
+    justify-content: center; 
+    align-items: center;
+    display: flex; 
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 10px;
+}
+
+.section3 p{
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color:  #6c1c9c;
+    font-family: 'IRANYekan', sans-serif;
+     width: 493px; 
+     height: 35px;
+     font-weight: 700;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+.section3 .digi {
+  
+   justify-content: center;
+    /* margin-left:700px ; */
+   margin-right: auto;
+   margin-left: auto;
+    padding-right:auto;
+    padding-left:auto;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    margin-top:70px ;
+} 
+
+
+.section3  image{
+    position: absolute;
+    
+}
+
  .section3 .btn {
     background-color: #4E047B;   
     width: 298px;
@@ -167,6 +316,36 @@
     background-color:#312d33;
     margin-top: 40px;
 
+}
+.end-1{
+    width: 150px;  
+    padding-top:auto; 
+    position: absolute; 
+    display: inline-block; 
+    margin-top: 60px;
+    margin-left:85%;
+}
+.end-1 img{
+    width: 150px; 
+    height: 30px; 
+}
+.end-1 p{
+    color: azure;
+     font-size: 20px;
+      font-family: 'IRANYekan', sans-serif;
+}
+.end-2{
+    width:50%;
+     height: 50px;
+     justify-content: center;
+     align-items: center;
+     display: absolute; 
+     margin-left: auto; 
+     margin-right: auto; 
+     padding-top:40px;
+}
+.end-3{
+    margin-left:5%
 }
 
 /* @media (max-width:1320px)  { .image2{
