@@ -6,14 +6,20 @@
     background-position:20px ;
     display: flex;
     border-radius: 10px 10px 10px 10px;
-    margin-top: 100px;
-    margin-left:990px;
+    margin-top: 5rem;
+    margin-left:auto;
+    margin-right: 20%;
+}
+.button p{
+    font-weight: 400;
+    font-size: 100px;
+    
 }
 
 .main{
     background-color:#8012C3;
     width:auto;
-    height: 470px;
+    height:470px;
     box-shadow: none;
     justify-content: space-between;
     margin: 0;
@@ -29,7 +35,8 @@
 }
 .image{
     display:flex ;
-    margin-left: 1027px;
+    margin-left:auto;
+    margin-right: 22%;
     padding-top:108px;
     width:235.73px;
     height: 46px;
@@ -38,14 +45,14 @@
 .message {
     background-color: #8F2FCA;
     color:white;
-    width:494px; 
-    height: 65px;
+    width:33rem; 
+    height: 17%;
     background-position:20px ;
     display: flex;
     border-radius: 10px 10px 10px 10px;
     margin-top: 30px;
-    margin-left: 888px;
-
+    margin-left:auto;
+    margin-right: 12%;
 }
 .message p{
     color: white;
@@ -67,8 +74,8 @@
     padding-left: 149px;
     position: absolute;  
    padding-top:106px;
-   width:570.33px;
-   height:495px;
+   width:40%;
+   height: 20%;
 
 }
 .paragraf p{
@@ -177,7 +184,7 @@
 
 }
 
-@media (max-width:1320px)  { .image2{
+/* @media (max-width:1320px)  { .image2{
     display: flex;
     width: 150px;
     height: 200px;
@@ -205,14 +212,14 @@
     margin-left: auto;
 }
 
-}
-@media (max-width:1025px){
+} */
+/* @media (max-width:1025px){
     .image2{ 
         display: none;
     }
 
-}
-@media (max-width:860px){
+} */
+/* @media (max-width:860px){
     .button{
     margin-right:auto;
     margin-left: auto;
@@ -251,9 +258,9 @@
         width: 80%;
     }
 
-}
+} */
 
-@media(max-width:766px) {
+/* @media(max-width:766px) {
     .last{height: 700px;}
     .end-1{
         margin-top:20px;
@@ -271,15 +278,15 @@
         padding-right:5%;
 
     }
-}
-@media(max-width:650px) {
+} */
+/* @media(max-width:650px) {
 .section3 .digi {
     display: inline-block;
     padding-right: 35%;
 }
-}
+} */
 
-@media (max-width:900px) {
+/* @media (max-width:900px) {
     .section2{
         display: inline-block;
     }
@@ -289,8 +296,8 @@
     }
  
            
-}
-@media  (max-width:900px){
+} */
+/* @media  (max-width:900px){
    .all{
     display: grid;
     grid-column: auto;
@@ -298,7 +305,7 @@
 
   
        
-}
+} */
 @media screen and (max-width:687px) {
 
 
