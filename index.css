@@ -1,4 +1,36 @@
-
+.main{
+    background-color:#8012C3;
+    width:auto;
+    height:470px;
+    justify-content: space-between;
+    display: block;
+}
+.image2 img{
+   
+    position: absolute;  
+   padding-top:106px;
+   margin-left:100px;
+}
+.image img{
+    display:flex ;
+    margin-left: 67vw;
+    padding-top:108px;
+    width:235.73px;
+    height: 46px;
+    
+}
+.message {
+    background-color: #8F2FCA;
+    color:white;
+    width:500px; 
+    height: 17%;
+    background-position:20px ;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-left: 56vw;
+    justify-content: center;
+}
 .button{
     background-color:#4E047B;
     width: 298px;
@@ -19,50 +51,12 @@
     text-decoration:none;
 }
 
-.main{
-    background-color:#8012C3;
-    width:auto;
-    height:470px;
-    
-    justify-content: space-between;
-    
-    
-    
-    display: block;
-    
-   
-}
-.image{
-    display:flex ;
-    margin-left: 67vw;
-    padding-top:108px;
-    width:235.73px;
-    height: 46px;
-    
-}
-.message {
-    background-color: #8F2FCA;
-    color:white;
-    width:500px; 
-    height: 17%;
-    background-position:20px ;
-    display: flex;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 30px;
-    margin-left: 56vw;
-    justify-content: center;
-}
 
 /* .corner1{
   
 } */
 
-.image2{
-   
-    position: absolute;  
-   padding-top:106px;
-   margin-left:100px;
-}
+
 
 
 
