@@ -52,16 +52,6 @@
     display: flex;
     text-decoration:none;
 }
-
-
-/* .corner1{
-  
-} */
-
-
-
-
-
 .paragraf p{
     color:#6A1B9A; 
     justify-content: center;
@@ -77,10 +67,7 @@
    margin-right: auto;
    align-items: center;
 }
-/* .paragraf{
-    width:368px ;
-    height: 35px;
-} */
+
 .kadre{
     width:410px;
     height: 83px;
@@ -112,20 +99,11 @@
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    /* width: 793px;
-    height: 254px; */
     margin-bottom:200px ;
    
 }
-/* .section2{
-    background-color:#FDF7FF;
-    height:371px;
-    width: auto;
-    margin-bottom:150px;
-} */
+
 .hard {
-  
-    
      font-weight: 700;   
       color:#6c1c9c;
     font-family: 'IRANYekan', sans-serif;
@@ -141,7 +119,6 @@
 
 .section2 {
     justify-content: center;
-    /* margin-left:700px ; */
    margin-right: auto;
    margin-left: auto;
     padding-right:auto;
@@ -386,83 +363,6 @@
 .end-3{
     margin-left:3%;
 }
-
-/* @media (max-width:1320px)  { .image2{
-    display: flex;
-    width: 150px;
-    height: 200px;
-    margin-right: auto;
-   margin-left: auto;
-}
-
-     .main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.image,.message,.button{
-    margin-right: auto;
-    margin-left: auto;
-
-}
-.image{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    width:15.5em;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-} */
-/* @media (max-width:1025px){
-    .image2{ 
-        display: none;
-    }
-
-} */
-/* @media (max-width:860px){
-    .button{
-    margin-right:auto;
-    margin-left: auto;
-    margin-top:470px;
-    width: 30%;
-    height: 10%;
-    justify-content: center;
-    position: absolute;
-    }
-    .image{
-        margin-right: auto;
-        width: 350px;
-        margin-left: auto;
-    }
-    .message {
-        margin-right:auto;
-        margin-left:auto;
-        width: 90%;
-        height:20%;
-        justify-content: center;
-        margin-top:50px;
-    }
-    .image2{
-         display:none;
-    }    
-    .paragraf{
-    margin-top:200px ;
-    }
-    .section-1{
-        display:flex;
-        width:90%;
-        height:70%;
-        justify-content: center;
-    }
-    .kadre{
-        width: 80%;
-    }
-
-} */
-
 @media(max-width:1046px) {
     .last{
     display: grid;
@@ -513,32 +413,6 @@
     width: 60vw;
     
 }
-    /* .last{height: 700px;}
-    .end-1{
-        margin-top:20px;
-        
-    }
-    .end-1 img{
-        margin-left: auto;
-        margin-right:auto;
-        display: flex;
-        justify-content: center;
-        margin-left:65px;
-    }
-    .end-2{
-      
-       margin-top: 120px;
-       position: absolute;
-      
-      
-    }
-    .end-3{
-        direction: rtl;
-        padding-top: 50px;
-        justify-content: center;
-        padding-right:5%;
-
-    } */
 }
 @media(max-width:650px) {
 .section3 .digi {
@@ -559,27 +433,6 @@
 }
 
 }
-
-/* @media (max-width:900px) {
-    .section2{
-        display: inline-block;
-    }
-    .first{
-        display: inline-block;
-        width:1000px;
-    }
- 
-           
-} */
-/* @media  (max-width:900px){
-   .all{
-    display: grid;
-    grid-column: auto;
-   }
-
-  
-       
-} */
 @media screen and (max-width:1225px) {
     .all{
         display: grid;
@@ -695,23 +548,4 @@
         margin-top: 10%;
         margin-bottom: 25%;
     }
-}
-@media (max-width:1046px) {
-    /* .last{
-        display: grid;
-    }
-    .end-1{
-        display: grid;
-       position: absolute;
-       
-    }
-    .end-2{
-       position: absolute;
-       margin-right: 0px;
-
-    }
-    .end-3{
-     position: absolute; 
-    } */
-    
 }
