@@ -33,6 +33,9 @@
     margin-left: 56vw;
     justify-content: center;
 }
+.message p{
+    direction: rtl;
+}
 .button{
     background-color:#4E047B;
     width: 298px;
@@ -51,6 +54,7 @@
     justify-content: center;
     display: flex;
     text-decoration:none;
+    font-size: 1vw;
 }
 .paragraf p{
     color:#6A1B9A; 
@@ -147,10 +151,14 @@
     border:solid #E0DCDC 1px;
     margin-right:1%;
     
+    
 }
 .first img{
+    display: flex;
+    direction: ltr;
     margin-right:15rem;
     margin-left: 1rem;
+    margin-bottom: 1vw;
 }
 .firstp{
     color: #c45d5d;
@@ -416,6 +424,7 @@
 }
 @media(max-width:650px) {
 .section3 .digi {
+    padding-right: 10vw;
     display: grid;
     row-gap: 2rem;
    
@@ -423,7 +432,7 @@
 .section3 p{
     /* width: 120vw; */
     font-size: 20px;
-    width: 100vw;
+    width: 80vw;
 
 }
 .btn{
@@ -445,7 +454,7 @@
         display: grid;
     }
     .first img{
-        margin-right:75vw;
+        margin-right:73vw;
         margin-left: 0px;
        
     }
@@ -455,7 +464,7 @@
     
     }
     .second img{
-        margin-right:74vw;
+        margin-right:70vw;
         margin-left: 0px;
     }
     .third{
@@ -463,7 +472,7 @@
         display: grid;
     }
     .thirdpi img {
-        margin-right:74vw;
+        margin-right:70vw;
         margin-left: 0px;
         
     }
@@ -472,7 +481,7 @@
         display: grid;
     }
     .forthpi img{
-        margin-right:74vw;
+        margin-right:70vw;
         margin-left: 0px;
     }
     
@@ -489,17 +498,20 @@
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        font-size: 80%;
         width:40vw;
         justify-content: center;
         margin-left: 55%;
     }
     .message p{
+        font-size: 1.25vw;
         margin-top: 25px;
        
     }
     .button{
         width: 25vw;
+    }
+    .button p{
+        font-size: 1.5vw;
     }
 }
 @media (max-width:956px) {
@@ -516,36 +528,55 @@
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        width: 90%;
+        width: 70vw;
         height: 20%;
        margin-top: 90px;
        
     }
     .message p{
-        margin-right: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
+        font-size:2vw;
         width: auto;
         padding-right: 0%;
         margin-top: 35px;
 
     }
     .button{
+        font-size:1vw;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
         margin-top: 90px;
         display: flex;
-        width: 33%;
+        width: 33vw;
         height: 15%;
+    }
+    .button p{
+        font-size: 2vw;
     }
 }
 @media (max-width:778px) {
+
+    .kadre{
+        width: 80vw;
+    }
     .section-1{
         width: 90vw;
         height: 35vw;
         margin-top: 10%;
         margin-bottom: 25%;
     }
+    .message{
+        font-size:2vw;
+    }
+   
+}
+@media (max-width:410px) 
+{
+    .paragraf p{
+        font-size:5vw;
+    }
+    .end-3{
+        margin-top: 750px;
+    }
+    
 }
